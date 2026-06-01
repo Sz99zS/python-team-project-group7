@@ -1,0 +1,28 @@
+# Ігнорування налаштувань IDE PyCharm та VS Code
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ігнорування кешу Python (щоб не забивати репозиторій тимчасовими файлами)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ігнорування віртуального оточення (якщо будеш створювати локально)
+venv/
+.venv/
+env/
+ENV/
+
+# Ігнорування системних файлів Windows / Mac
+Thumbs.db
+Desktop.ini
+.DS_Store
